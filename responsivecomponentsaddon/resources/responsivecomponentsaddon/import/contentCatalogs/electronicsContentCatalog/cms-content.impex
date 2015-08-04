@@ -1,3 +1,6 @@
 $contentCatalog=electronicsContentCatalog
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 $jarResourceCms=jar:br.com.carrefour.responsivecomponentsaddon.constants.ResponsivecomponentsaddonConstants&/responsivecomponentsaddon/import/cockpit/cmscockpit
+
+INSERT_UPDATE ComponentTypeGroups2ComponentType;source(code)[unique=true];target(code)[unique=true]
+;wide;CircledLinksComponent
