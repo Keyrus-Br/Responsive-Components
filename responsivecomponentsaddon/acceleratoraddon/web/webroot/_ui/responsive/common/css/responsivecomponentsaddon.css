@@ -1,0 +1,44 @@
+.blockCarousel {
+	width: 100%;
+	display: block;
+	background-color: #ccc;
+	padding: 15px 20px;
+	overflow: hidden;
+}
+.blockCarousel .title-carousel-header {
+	display: block;
+	width: 100%;
+}
+.blockCarousel .title-carousel-header span {
+	display: block;
+	text-align: center;
+	font-size: 1.9em;
+	color: #787878; 
+	margin-bottom: 10px;
+}
+.blockCarousel .list-product {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: auto;
+}
+.blockCarousel .list-product li {
+   display: inline-block;
+   height: 180px;
+   background-color: #005baa;
+   border: 4px solid #707070;
+   border-radius: 50%;
+}
+.blockCarousel .list-product li a {
+
+}
+.blockCarousel .list-product li .block-product {
+	display: block;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    top: 74px;
+    position: relative;
+}
