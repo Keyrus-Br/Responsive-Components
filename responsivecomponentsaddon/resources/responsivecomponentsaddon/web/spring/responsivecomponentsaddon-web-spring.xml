@@ -43,4 +43,11 @@
 		<property name="add" ref="getResponsivecomponentsaddonBeforeViewHandler"/>
 	</bean>
 
+	<bean id="circledLinksComponentRenderer" parent="genericAddOnCMSComponentRenderer" />
+       
+	<bean id="circledLinksComponentRendererMapping" parent="addonCmsComponentRendererMapping">
+        <property name="typeCode" value="CircledLinksComponent" />
+        <property name="renderer" ref="circledLinksComponentRenderer" />
+	</bean>
+
 </beans>
